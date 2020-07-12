@@ -3139,16 +3139,18 @@ input, select, textarea {
 		}
 
 		.spotlight.style1 .content {
-			border-color: #e44c65;
+			border-color: #5480f1;
 		}
 
 		.spotlight.style2 .content {
-			border-color: #5480f1;
+			border-color: #e44c65;
 		}
 
 		.spotlight.style3 .content {
 			border-color: #39c088;
 		}
+
+		
 
 		.spotlight.inactive .content {
 			opacity: 0;
@@ -3198,6 +3200,10 @@ input, select, textarea {
 
 	.wrapper {
 		padding: 6em 0 4em 0;
+	}
+
+	.wrapper.style1 {
+		border-color: #e44c65;
 	}
 
 		.wrapper.style2 {
@@ -3490,7 +3496,7 @@ input, select, textarea {
 			max-width: 95%;
 			padding: 6em;
 			position: relative;
-			text-align: right;
+			text-align: left;
 			vertical-align: middle;
 			z-index: 1;
 		}
@@ -3514,7 +3520,7 @@ input, select, textarea {
 				border-radius: 100%;
 				display: inline-block;
 				height: 18em;
-				margin-left: 3em;
+				margin-right: 3em;
 				vertical-align: middle;
 				width: 18em;
 			}
